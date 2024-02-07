@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Agencia de viagem </title>
+</head>
+<body>
+    <header> <h1> Agencia do Pedro </h1></header>
+
+    <div>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend> Reserva aqui > </legend>
+                    <label for="reservaNome"> Nome </label> <br>
+                    <input type="text" name="nome" value="Seu nome"> <br>
+                    <label for="reservaSobrenome"> Sobrenome </label> <br>
+                    <input type="text" name="sobrenome" value="Seu Sobrenome"> <br>
+
+                </fieldset> 
+                <fieldset>
+                    <legend>  Nossos Serviços  </legend>
+                     <label for="reservaServicos"> 
+                        <input type="checkbox" name="serviços" value="hotel">
+                        Reserva de hoteis
+                    </label>
+                    <br>
+                    <label for="reservaServicos"> 
+                        <input type="checkbox" name="serviços" value="carros">
+                        Reserva de carros
+                    </label>
+                    <br>
+                    <label for="reservaServicos"> 
+                        <input type="checkbox" name="serviços" value="voos">
+                        Reserva de voos
+                    </label>
+                    <br>
+                    <label for="reservaServicos"> 
+                        <input type="checkbox" name="serviços" value="airbnb">
+                        Reserva de airbnb
+                    </label>
+                    <br>
+                </fieldset>    
+            <fieldset>
+                <legend> Tipo de pagamento </legend>
+                <label for="formadepagamento"> 
+                    <input type="radio" name="pagamento" value="avista">
+                    Dinheiro
+                </label>
+                <br>
+                <label for="formadepagamento"> 
+                    <input type="radio" name="pagamento" value="credito">
+                    Cartao de credito
+                </label>
+                <br>
+                <label for="formadepagamento"> 
+                    <input type="radio" name="pagamento" value="boleto">
+                    Boleto
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend> Formas de pagamentos </legend>
+                    <label> Escolha a forma de pagamento </label><br>
+                    <select id=“pagamento” name=“pagamento”>
+                        <option  value=“avista”> A vista </option>
+                        <option  value=“2x”> 2x sem juros </option>
+                        <option  value=“6x”> 6x sem juros </option>
+                        <option  value=“12x” selected> 12x sem juros </option>
+                    </select> 
+            </fieldset>    
+            <br>
+            <br>   
+                <input type="submit">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
